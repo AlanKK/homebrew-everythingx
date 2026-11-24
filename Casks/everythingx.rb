@@ -3,11 +3,11 @@
 cask "everythingx" do
   arch arm: "apple-arm64", intel: "intel-amd64"
 
-  version "1.2.0"
-  sha256 arm:   "633d781ae1dcea127ab6db8cb45295be0d534cd1a08361b625c9c40980d47988",
-         intel: "9b532769f9dad9744300d28179239e3afb830e46466bbfb6f180fa3b3651c796"
+  version "1.2.1"
+  sha256 arm:   "f0d7e764f69356375fbeaa25956d9d8b8c736295b439ccd3d969f4f62699fd54",
+         intel: "cb8fc3cd3812947ca25061d1f2e5c43eb14fdc089ebcf23a408d82cf9a854ba6"
 
-  url "https://github.com/AlanKK/everythingx/releases/download/v1.2.0/EverythingX_macos-#{arch}.pkg"
+  url "https://github.com/AlanKK/everythingx/releases/download/v1.2.1/EverythingX_macos-#{arch}.pkg"
   name "EverythingX"
   desc "Fast file name search with a live-updating index"
   homepage "https://github.com/AlanKK/everythingx"
